@@ -1,0 +1,288 @@
+
+:root {
+    --primary-color:rgb(6, 57, 108) ;
+  }
+.titolo {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.877),rgba(6, 57, 108, 0.61)), url('./media/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 4rem;
+}
+.bg-blue {
+    background-color: var(--primary-color);
+    
+}
+.logo {
+    width: 10%;
+}
+.nav-link {
+    color: antiquewhite;
+}
+.testo-blue {
+    color: var(--primary-color);
+}
+.rientro {
+    margin-left: 1rem;
+}
+.card {
+    border: 0;
+}
+.testo-bianco {
+    color: antiquewhite;
+}
+.power-lorem {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.877),rgba(6, 57, 108, 0.61)), url('./media/power-plant-4712830_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.bg-trasparente {
+    background-color: transparent;
+}
+.box-panel {
+    height: 70vh;}
+
+    
+.sfondo-power-plant{
+    background-image: linear-gradient(120deg, rgba(6, 57, 108, .6), rgba(6, 57, 108, .6)),url(./media/power-plant-4712830_1280.jpg);
+        height: 60vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-position: cover;
+
+}
+
+/*important*/
+.position-relative{
+position: relative !important;    
+}
+
+/*sezione bianca*/
+
+.sezione-bianca{
+    height: 60vh;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    background-color: #fff;
+    
+}
+
+/*sezione blu*/
+
+.sezione-blu {
+       
+    padding-left: 3vh;
+    padding-right: 3vh;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 6vh;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+.img-panel {
+        
+    height: 35vh;
+    padding-bottom: vh;
+}
+
+.altezza-sezione-blu{
+    height: 55vh;
+}
+
+.font-size-small{
+    font-size: small;
+}
+
+/*sezione descrizione*/
+
+.description{
+    color: var(--primary-color);
+}
+.color{
+    border-radius: 0;
+    background-color: var(--primary-color) !important;
+    color: #FFF !important;
+}
+.larghezza-buttom {
+    width: 25vh !important;
+}
+
+/*larghezza immagine usa map*/
+.immagine-usamap{
+    height: 50vh;
+}
+
+/* sezione card*/
+
+
+/* sezione sacramento*/
+.card-sacramento {
+background-image: url(./media/apple-macbook-air-2017-05.webp);
+background-position: center;
+background-size: cover;
+
+}
+/*sezione carson city*/
+.card-carson-city{
+    background-position: center;
+    background-size: cover;
+    background-image: url(./media/depositphotos_124563394-stock-photo-blue-sky-background.jpg);
+}
+/*sezione card albany*/
+.card-Albany{
+    background-position: center;
+    background-size: cover;
+    background-image: url(./media/49876.webp);
+}
+
+/*sezione card dallas*/
+.card-dallas{
+    background-position: center;
+    background-size: cover;
+    background-image: url(./media/1607164923VisodaOstanarr\(15\).jpeg);
+}
+
+/*classi sezione card*/
+.position-relative{
+    position: relative;
+}
+.custom{
+    width: 30vw;
+    height: 20vh;
+}
+.box-gradient1::before{
+    content: '';
+     background: linear-gradient(90deg, rgba(6, 57, 108, 0.519), rgba(6, 57, 108, 0));
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: -2vh;
+    left: -5vh;
+}
+
+.z-index1{
+    z-index: 100;
+}
+.box-shadow{
+    box-shadow: 5px var(--primary-color) 90deg;
+    z-index: 5;
+}
+
+/*sezione some stuff blu*/
+.some-stuff-blu{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 45vh;
+ 
+}
+/*sezione con immagini*/
+.sun{
+    background-image: linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,.1)), url(./media/sun.png);
+    width: 26vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+  
+}
+.wind{
+    background-image: linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,.1)), url(./media/wind.png);
+    width: 26vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.wawe{
+    background-image: linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,.1)), url(./media/wave.png);
+    width: 26vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.gas{
+    background-image: linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,.1)), url(./media/gas.png);
+    width: 26vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.oil{
+    background-image: linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,.1)), url(./media/oil.png);
+    width: 26vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.atom{
+    background-image: linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,.1)), url(./media/nuclear.png);
+    width: 26vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.position-absolute1{
+    position: absolute;
+    bottom: -60vh;
+ }
+ 
+/*sezione download lorem ipsum*/
+.box {
+    width: 16rem;
+    height: 10rem;
+    box-shadow: 10px 10px 10px 10px #dedede;
+}
+.d-row{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+/*sezione description 2*/
+.progress1{
+    border-bottom: 4px solid var(--primary-color) !important;
+    width: 30%;
+}
+.progress2{
+    border-bottom: 4px solid var(--primary-color) !important;
+    width: 50%;
+}
+.progress3{
+    border-bottom: 4px solid var(--primary-color) !important;
+    width: 70%;
+}
+.progress4{
+    border-bottom: 4px solid var(--primary-color) !important;
+    width: 80%;
+}
+.progress5{
+    border-bottom: 4px solid var(--primary-color) !important;
+    width: 65%;
+}
+/*sezione box finale*/
+.img-box-footer{
+    height: 35px;
+    width: 50px;
+}
+.b-footer{
+    background-color: #000000;
+}
+/*sezione box finale blu*/
+.box-blu-footer{
+    width: 300px;
+    height: 250px;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-top: -400px;
+    right: 150px;
+    top: bottom;
+}
